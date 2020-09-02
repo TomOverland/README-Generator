@@ -24,11 +24,22 @@ function promptUser() {
       name: "installation",
     },
     {
-        type: "input",
-        message: "How would you like your application to be used?";
-        name: "usage"
+      type: "input",
+      message: "How would you like your application to be used?",
+      name: "usage",
     },
-    
+    {
+      type: "input",
+      message:
+        "Who contributed to the project?  Please list names and contact information.",
+      name: "contribution",
+    },
+    {
+      type: "input",
+      message:
+        "What are the test instructions?  Write NONE if no test instructions.",
+      name: "test",
+    }
   );
 }
 
