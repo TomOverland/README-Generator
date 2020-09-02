@@ -62,6 +62,10 @@ function generateMarkdown(response) {
   return `
     # ${response.title}
     
+    ## Description:
+    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+    ${response.description}
+
     # Table of Contents
     
     - [Description](#description)
@@ -72,26 +76,22 @@ function generateMarkdown(response) {
     - [License](#license)
     - [Questions](#questions)
     
-    ## Description:
-    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
-    ${response.description}
-    
     ## Installation:
     ${response.installation}
 
     ## Usage:
     ${response.usage}
 
-    ## Contributing:
-    ${response.contributing}
-
-    ## Test:
-    ${response.tests}
-
     ## License:
     For more information about the license, click the link below:
 
     - [License](https://opensource.org/licenses/${response.license})
+
+    ## Contributing:
+    ${response.contributing}
+
+    ## Tests:
+    ${response.tests}
 
     ## Questions:
     For more information about the Generator, please reach out to me via my GitHub profile.
@@ -102,4 +102,18 @@ function generateMarkdown(response) {
     `;
 }
 
-promptUser();
+// Creating a function to initialize program
+async function init() {
+  try {
+    const response = await promptUser();
+    const readMe = generateMarkdown(response);
+
+    await writeFile("README.md", readMe);
+    console.log("File created successfully!");
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+// Calling init function to run the program
+init();
