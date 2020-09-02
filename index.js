@@ -58,4 +58,30 @@ function promptUser() {
   );
 }
 
+function generateMarkdown(response) {
+  return `
+    # ${response.title}
+    
+    # Table of Contents
+    
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [Test](#tests)
+    - [License](#license)
+    - [Questions](#questions)
+    
+    ## Description:
+    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+    ${response.description}
+    
+    ## Installation:
+    ${response.installation}
+
+    ## Usage:
+    ${response.usage}
+    `;
+}
+
 promptUser();
