@@ -81,6 +81,24 @@ function generateMarkdown(response) {
 
     ## Usage:
     ${response.usage}
+
+    ## Contributing:
+    ${response.contributing}
+
+    ## Test:
+    ${response.tests}
+
+    ## License:
+    For more information about the license, click the link below:
+
+    - [License](https://opensource.org/licenses/${response.license})
+
+    ## Questions:
+    For more information about the Generator, please reach out to me via my GitHub profile.
+
+    -[GitHub Profile](https://github.com/${response.username})
+
+    For any other questions, please send me an email at: ${response.email}.
     `;
 }
 
