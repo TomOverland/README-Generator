@@ -30,15 +30,30 @@ function promptUser() {
     },
     {
       type: "input",
-      message:
-        "Who contributed to the project?  Please list names and contact information.",
-      name: "contribution",
+      message: "How can people contribute to this project?",
+      name: "contributing",
     },
     {
       type: "input",
       message:
         "What are the test instructions?  Write NONE if no test instructions.",
-      name: "test",
+      name: "tests",
+    },
+    {
+      type: "checkbox",
+      message: "Please select a license",
+      choices: ["Apache", "MIT", "ISC", "GNU GPLv3"],
+      name: "license",
+    },
+    {
+      type: "input",
+      message: "What is your email address?",
+      name: "email",
+    },
+    {
+      type: "input",
+      message: "What is your GitHub username?",
+      name: "username",
     }
   );
 }
