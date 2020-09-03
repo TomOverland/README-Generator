@@ -18,13 +18,13 @@
  ## Installation:
    1. Make sure you have Node.js installed on your computer.  
    2. Clone this repository into your computer.  
-   ![Clone Repository](assests\CloneRepo.JPG)  
+   ![Clone Repository](https://github.com/TomOverland/README-Generator/blob/master/assests/CloneRepo.JPG)  
    3. Open your command line application (examples: git bash, terminal), change directorys into the folder where you cloned this repository and run "npm init".  
-   ![Change Directory](assests\ChangeDirectory.JPG)  
+   ![Change Directory](https://github.com/TomOverland/README-Generator/blob/master/assests/ChangeDirectory.JPG)  
    4. Run "npm install inquirer"  
-   ![npm install Inquirer](assests\npmInstallinquirer.JPG)  
+   ![npm install Inquirer](https://github.com/TomOverland/README-Generator/blob/master/assests/npmInstallinquirer.JPG)  
    5. Run "node index.js" and follow the prompts.  
-   ![Prompts](assests\Prompts.JPG)  
+   ![Prompts](https://github.com/TomOverland/README-Generator/blob/master/assests/Prompts.JPG)  
 
   ## Usage:
    This application allows for a user to quickly create a README file.
