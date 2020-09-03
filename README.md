@@ -1,7 +1,7 @@
 # README-Generator
     
 ## Description:
-   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
   
    This application uses Node.js, inquirer, fs, and util to create prompts for the user to fill out.  The users answers will be used to build a README markdown document.
 
