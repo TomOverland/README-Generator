@@ -3,7 +3,7 @@
     
     ## Description:
     ![License](https://img.shields.io/badge/License--blue.svg "License Badge")
-    This application will quickly generate a professional looking README for new projects.
+    This application uses Node.js, inquirer, fs, and util to create prompts for the user to fill out.  The users answers will be used to build a README markdown document.
 
     # Table of Contents
     
@@ -16,7 +16,11 @@
     - [Questions](#questions)
     
     ## Installation:
-    1. Clone this repository into your computer.  2. Open your command line application (examples: git bash, terminal) and run "npm init".  3. Run "npm install inquirer"  4. run "node index.js" and follow the prompts.
+    1. Make sure you have Node.js installed on your computer.  
+    2. Clone this repository into your computer.  
+    3. Open your command line application (examples: git bash, terminal) and run "npm init".  
+    4. Run "npm install inquirer"  
+    5. Run "node index.js" and follow the prompts.  
 
     ## Usage:
     This application allows for a user to quickly create a README file.
