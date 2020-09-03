@@ -6,7 +6,7 @@ const writeFile = util.promisify(fs.writeFile);
 
 //function that creates the array of questions for the user
 function promptUser() {
-  return inquirer.prompt(
+  return inquirer.prompt([
     {
       type: "input",
       message: "What is the name of your project?",
@@ -54,8 +54,8 @@ function promptUser() {
       type: "input",
       message: "What is your GitHub username?",
       name: "username",
-    }
-  );
+    },
+  ]);
 }
 
 function generateMarkdown(response) {
