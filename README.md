@@ -18,7 +18,7 @@
  ## Installation:
    1. Make sure you have Node.js installed on your computer.  
    2. Clone this repository into your computer.  
-   3. Open your command line application (examples: git bash, terminal) and run "npm init".  
+   3. Open your command line application (examples: git bash, terminal), change directorys into the folder where you cloned this repository and run "npm init".  
    4. Run "npm install inquirer"  
    5. Run "node index.js" and follow the prompts.  
 
