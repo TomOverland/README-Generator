@@ -1,7 +1,7 @@
 # README-Generator
     
 ## Description:
-   ![License](https://img.shields.io/badge/License--blue.svg "License Badge")
+   ![License](https://img.shields.io/badge/License--blue.svg "License Badge")  
    This application uses Node.js, inquirer, fs, and util to create prompts for the user to fill out.  The users answers will be used to build a README markdown document.
 
    # Table of Contents
