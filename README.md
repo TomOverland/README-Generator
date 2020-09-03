@@ -16,7 +16,7 @@
    - [Questions](#questions)
     
  ## Installation:
-   1. Make sure you have Node.js installed on your computer.  
+   1. Make sure you have Node.js installed on your computer.  Node.js download can be found [here](https://nodejs.org/en/).
    2. Clone this repository into your computer.  
    ![Clone Repository](https://github.com/TomOverland/README-Generator/blob/master/assests/CloneRepo.JPG)  
    3. Open your command line application (examples: git bash, terminal), change directorys into the folder where you cloned this repository and run "npm init".  
