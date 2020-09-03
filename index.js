@@ -4,7 +4,7 @@ const util = require("util");
 
 const writeFile = util.promisify(fs.writeFile);
 
-//function that creates the array of questions for the user
+// This is a function that creates the array of questions for the user
 function promptUser() {
   return inquirer.prompt([
     {
@@ -59,6 +59,7 @@ function promptUser() {
 }
 
 function generateMarkdown(response) {
+  // The user will need to delete the spacing on the markdown document, as my formatter puts four spaces before each line starting on line 64
   return `
     # ${response.title}
     
