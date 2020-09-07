@@ -58,13 +58,23 @@ function promptUser() {
   ]);
 }
 
+if (response.license === "Apache") {
+  const licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0);
+} else if (response.license === "MIT") {
+  const licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+} else if (response.license === "ISC") {
+  const licenseBadge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+} else {
+  const licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+}
+
 function generateMarkdown(response) {
   // The user will need to delete the spacing on the markdown document, as my formatter puts four spaces before each line starting on line 64
   return `
     # ${response.title}
     
     ## Description:
-    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+    ${licenseBadge}
     ${response.description}
 
     # Table of Contents
