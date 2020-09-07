@@ -59,7 +59,7 @@ function promptUser() {
 }
 
 if (response.license === "Apache") {
-  const licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0);
+  const licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 } else if (response.license === "MIT") {
   const licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
 } else if (response.license === "ISC") {
