@@ -3,7 +3,6 @@ const fs = require("fs");
 const util = require("util");
 
 const writeFile = util.promisify(fs.writeFile);
-let licenseBade =""
 
 // This is a function that creates the array of questions for the user
 function promptUser() {
@@ -57,7 +56,7 @@ function promptUser() {
       name: "username",
     },
   ])
-
+}
 
 function generateMarkdown(response) {
   // The user will need to delete the spacing on the markdown document, as my formatter puts four spaces before each line starting on line 64
