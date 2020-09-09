@@ -55,7 +55,7 @@ function promptUser() {
       message: "What is your GitHub username?",
       name: "username",
     },
-  ]);
+  ])
 }
 
 function generateMarkdown(response) {
