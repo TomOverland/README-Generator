@@ -3,7 +3,7 @@
 ## Description:
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
   
-   This application uses Node.js, inquirer, fs, and util to create prompts for the user to fill out.  The users answers will be used to build a README markdown document.
+   This application uses Node.js, inquirer, and the file system (fs) to create prompts for the user to fill out.  The users answers will be used to build a README markdown document.
 
    # Table of Contents
     
@@ -21,7 +21,7 @@
    ![Clone Repository](https://github.com/TomOverland/README-Generator/blob/master/assests/CloneRepo.JPG)  
    3. Open your command line application (examples: git bash, terminal), change directorys into the folder where you cloned this repository and run "npm init".  
    ![Change Directory](https://github.com/TomOverland/README-Generator/blob/master/assests/ChangeDirectory.JPG)  
-   4. Run "npm install inquirer"  
+   4. Run "npm i"  
    ![npm install Inquirer](https://github.com/TomOverland/README-Generator/blob/master/assests/npmInstallinquirer.JPG)  
    5. Run "node index.js" and follow the prompts.  
    ![Prompts](https://github.com/TomOverland/README-Generator/blob/master/assests/Prompts.JPG)  
