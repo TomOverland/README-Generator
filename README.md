@@ -35,13 +35,13 @@
    - [License](https://opensource.org/licenses/)
 
    ## Contributing:
-   Everyone is welcome to contribute.  Create a pull request with your changes and I will review it.
+   Everyone is welcome to contribute.  Create a pull request with your changes and I will review it.  Currently, I only have instructions written in English.  Translations to other languages would be appreciated!
 
    ## Tests:
    None.
 
    ## Demonstration
-   - [YouTube](https://youtu.be/6xVCn8ycKu0)
+   - [YouTube](https://youtu.be/M5E52N-3WnI)
    
    ## Questions:
    For more information about the Generator, please reach out to me via my [GitHub Profile](https://github.com/TomOverland).
